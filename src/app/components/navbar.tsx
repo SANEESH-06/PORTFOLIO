@@ -7,8 +7,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-import { Link } from "lucide-react";
-
+import Link from "next/link";
 export default function Nav() {
   return (
     <div className="flex items-center justify-between h-20 p-2 px-6 border-b border-zinc-200">

@@ -94,11 +94,11 @@ function Landing1() {
                         >
 
                             <Image
-                                src="/sn.jpg"
+                                src="/sn.webp"
                                 alt="description"
-                                width={100}
-                                height={100}
-                                className="w-full h-full object-cover transition-transform duration-500 scale-110 hover:scale-125"
+                                width={300}
+                                height={300}
+                                className="w-full h-full object-cover transition-transform duration-500 scale-190 -mt-5 hover:scale-200"
                             />
                         </motion.div>
 

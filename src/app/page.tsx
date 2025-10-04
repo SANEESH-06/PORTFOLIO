@@ -40,16 +40,21 @@ const audioRef = useRef<HTMLAudioElement | null>(null);
           </button>
         )}
       </div>
-
+<div className="mb-6">
       <Landing1 />
+
+</div >
+<div>
+  
+</div>
       <LoopScrollText />
       <div className="bg-black text-white p-2 flex justify-start px-6">
         <Landing2 />
       </div>
-      <div className="bg-black text-white flex justify-start px-6">
+      <div className="bg-black py-11  text-white flex justify-start px-6">
         <Landing3 />
       </div>
-      <div className="bg-lime-300 p-2">
+      <div className="bg-lime-300  p-2">
         <Viewall />
       </div>
       <SecondScroll />

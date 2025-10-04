@@ -11,7 +11,7 @@ import Landing4 from "./components/landing4";
 import { Play } from "lucide-react";
 
 export default function Page() {
-  const audioRef = useRef(null);
+const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {

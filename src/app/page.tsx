@@ -26,6 +26,7 @@ const audioRef = useRef<HTMLAudioElement | null>(null);
       className="w-full min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('/mobbg.png')",
+        contain:"size"
       }}
     >
       <div className="p-2">

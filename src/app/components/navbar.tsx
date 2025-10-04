@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 export default function Nav() {
+
+
   return (
     <div className="flex items-center justify-between h-20 p-2 px-6 border-b border-zinc-200">
       <Link href="/" className="flex items-center">
@@ -21,7 +23,7 @@ export default function Nav() {
             <NavigationMenuLink asChild className="text-zinc-800 ">
               <a href="/contact">Project</a>
             </NavigationMenuLink>
-          </NavigationMenuItem>  
+          </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className="text-zinc-800 ">
@@ -36,6 +38,7 @@ export default function Nav() {
       >
         Email: Saneeshn6@gmail.com
       </a>
+     
     </div>
   );
 }

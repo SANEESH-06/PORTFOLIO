@@ -3,33 +3,33 @@ import { NextResponse } from "next/server";
 export async function GET() {
   const projects = [
     {
-      title: "Pottery Artist Portfolio",
+      title: "",
       date: "2024-05-31",
-      company: "SilverLynxTechnologies",
+      company: "Interactive Web",
       description: "Web design & Web development",
-      imageUrl: "/bg2.jpg", 
+      imageUrl: "/wrk2.jpeg", 
     },
     {
-      title: "Modern UI Project",
+      title: "",
       date: "2024-06-10",
       company: "Creative Minds",
       description: "Frontend development with Next.js",
-      imageUrl: "/bg2.jpg",
+      imageUrl: "/wrk1.jpeg",
     },
     {
-      title: "Corporate Website",
+      title: "",
       date: "2024-07-01",
-      company: "TechWorld",
-      description: "Full stack web development",
-      imageUrl: "/bg.jpg",
+      company: "UI",
+      description: "Custom UI Development",
+      imageUrl: "/wrk3.jpeg",
     },
-        {
-      title: "Corporate Website",
-      date: "2024-07-01",
-      company: "TechWorld",
-      description: "Full stack web development",
-      imageUrl: "/bg.jpg",
-    },
+    //     {
+    //   title: "Corporate Website",
+    //   date: "2024-07-01",
+    //   company: "Music suround",
+    //   description: "Music app",
+    //   imageUrl: "/wrk4.jpeg",
+    // },
   ];
 
   return NextResponse.json(projects);

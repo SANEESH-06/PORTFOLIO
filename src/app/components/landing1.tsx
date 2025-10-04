@@ -128,7 +128,7 @@ function Landing1() {
 
                     <div>
                         <div className="flex flex-row items-center  gap-2">
-                            <p className="bg-green-400 w-3 h-3 rounded-full"></p>
+                            <p className="bg-lime-300 w-3 h-3 rounded-full"></p>
                             <p className="text-zinc-800 text-sm font-semibold">Available for freelance</p>
                         </div>
                         <div
@@ -168,7 +168,7 @@ function Landing1() {
             </div>
             <div className="px-6 ml-2 mt-7 bg-gree">
                 <button className="bg-lime-300 w-50 h-16 p-1.5  justify-between px-4 flex items-center rounded-full">
-                    See what i can     <ArrowRight className="bg-zinc-50 p-2.5 w-10 h-10 rounded-full font-extralight" />
+                    See what i can     <ArrowRight className="bg-zinc-50 rotate-320 hover:rotate-360 transition-[1000px] p-2.5 w-10 h-10 rounded-full font-extralight" />
 
                 </button>
             </div>

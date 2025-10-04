@@ -11,7 +11,7 @@ export default function Landing2() {
                     expertise</h2>
                 <div className="mb-10 mt-7  text-black  ">
                     <button className="bg-lime-300  border-1 border-lime-200 shadow-lg shadow-lime-300 w-50 h-16 p-1.5  justify-between px-4 flex items-center rounded-full">
-                        See what i can     <ArrowRight className="bg-zinc-50 text-black p-2.5 w-10 h-10 rounded-full font-extralight" />
+                        Become a client     <ArrowRight className="bg-zinc-50 rotate-320 hover:rotate-360 transition-[1000px] text-black p-2.5 w-10 h-10 rounded-full font-extralight" />
 
                     </button>
                 </div>

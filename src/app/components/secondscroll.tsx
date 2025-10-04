@@ -2,15 +2,21 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import { Asterisk } from 'lucide-react'
 
-function ScrollVelocity() {
+export default function SecondScroll() {
     const text = (
     <div className='flex items-center gap-2'>
-      18 /satisfied clients <Asterisk className="inline w-4 h-4 mx-1 text-lime-300" /> 
-     <span className='text-lime-300 '>6+ /</span>  month of experience 
-      <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
-      <span className='text-lime-300'>3 /</span>projects finished 
-      <Asterisk className="inline w-7 h-7 mx-1 text-lime-300" /> 
-      <span className='text-lime-300'>95% /</span>client retention rate
+       <Asterisk className="inline w-10 h-10 mx-1 text-lime-300" /> 
+     <span className='text-lime-300 '></span>  Landing page 
+      <Asterisk className="inline w-10 h-10 mx-1 text-lime-300" /> 
+      <span className='text-lime-300'></span>Blog
+      <Asterisk className="inline w-10 h-10 mx-1 text-lime-300" /> 
+      <span className='text-lime-300c'></span>E-commerce
+      <Asterisk className="inline w-10 h-10 mx-1 text-lime-300" /> 
+      <span className='text-lime-300'></span>Corporate website
+      <Asterisk className="inline w-7 h-10 mx-10 text-lime-300" /> 
+      <span className='text-lime-300'>95% /</span>E-Social network
+
+
     </div>
   );
 
@@ -71,4 +77,3 @@ function ScrollVelocity() {
   )
 }
 
-export default ScrollVelocity

@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <div className="flex items-center justify-between h-20 p-2 px-6 border-b border-zinc-200">
       <Link href="/" className="flex items-center">
-        <Image src="/icon01.png" alt="Logo" width={90} height={30} />
+        <Image src="/N.png" alt="Logo" width={90} height={30} />
       </Link>
 
       <NavigationMenu>

@@ -103,22 +103,22 @@ function Landing1() {
                         </motion.div>
 
                     </div>
-                    <div className="flex flex-col justify-center bg-zinc-100  h-30  z-50  ">
+                    <div className="flex flex-col justify-center bg-transparent  h-30  z-50  ">
                         <div >{text}</div>
                         <div className="text-zinc-400">{text1}</div>
                         <div className="flex flex-row gap-2  text-zinc-400">
                             <Link href="https://www.instagram.com/" target="_blank">
                                 <button>
-                                    <Instagram />
+                                    <Instagram  className="hover:rotate-180 transition-[500px]"/>
                                 </button>
                             </Link>
                             <Link href="https://www.linkedin.com/in/saneesh-n-aa9639266/" target="_blank">
                                 <button>
-                                    <Linkedin />
+                                    <Linkedin className="hover:rotate-180 transition-[50px]"/>
 
                                 </button>
                             </Link>
-                            <Twitter />
+                            <Twitter className="hover:rotate-360 transition-[50px]"/>
 
                         </div>
                     </div>

@@ -2,14 +2,12 @@
 
 import Nav from "./components/navbar"
 import LoopScrollText from "./components/ScrollVelocity"
-import { motion } from "motion/react"
-import PolygonHero from "@/app/components/PolygonHero"
-import Transform from "@/app/components/transform"
 import Landing1 from "./components/landing1"
 import Landing2 from "./components/landing2"
 import Landing3 from "./components/landing3"
 import Viewall from "./components/view-all"
 import SecondScroll from "./components/secondscroll"
+import Landing4 from "./components/landing4"
 
 
 export default function Page() {
@@ -18,8 +16,12 @@ export default function Page() {
   // }
 
   return (
-    <div className="w-full p-">
-      <div className="p-2">
+<div
+      className="w-full min-h-screen bg-cover  bg-center  bg-no-repeat"
+      style={{ backgroundImage: "url('/mobbg.png') ",
+        contain:"size"
+       }}
+    >      <div className="p-2">
         <Nav />
 
       </div>
@@ -43,6 +45,7 @@ export default function Page() {
 <div>
   <SecondScroll/>
 </div>
+<div className="p-2"><Landing4/></div>
 
       {/* <motion.button animate={{ opacity: 10 }} /> */}
 

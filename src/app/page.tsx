@@ -8,10 +8,12 @@ import Landing3 from "./components/landing3";
 import Viewall from "./components/view-all";
 import SecondScroll from "./components/secondscroll";
 import Landing4 from "./components/landing4";
+import Landing5 from "./components/landing5vid";
 import { Play } from "lucide-react";
+import React from "react";
 
 export default function Page() {
-const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {
@@ -23,43 +25,54 @@ const audioRef = useRef<HTMLAudioElement | null>(null);
 
   return (
     <div
-      className="w-full min-h-screen bg-cover bg-center bg-no-repeat"
+      className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative"
       style={{
         backgroundImage: "url('/mobbg.png')",
-        contain:"size"
+        contain: "size",
       }}
     >
-      <div className="p-2">
+      {/* 🧭 Navbar + Audio Button */}
+      <div className="p-2 relative z-50">
         <Nav />
         <audio ref={audioRef} src="/audio/audio.mp3" loop preload="auto" />
         {!isPlaying && (
           <button
             onClick={handlePlay}
-            className="fixed bottom-4 flex justify-center items-center right-4 bg-zinc-50 text-zinc-600 w-10  border-1  h-10 rounded-full shadow-lg"
-          >    <Play className="hover:rotate-360 transition-[4000px]" />
+            className="fixed bottom-4 right-4 flex justify-center items-center bg-zinc-50 text-zinc-600 w-10 h-10 rounded-full shadow-lg"
+          >
+            <Play className="transition-transform duration-500 hover:rotate-180" />
           </button>
         )}
       </div>
-<div className="mb-6">
-      <Landing1 />
 
-</div >
-<div>
-  
-</div>
+      {/* 🧩 Landing Sections */}
+      <div className="mb-6">
+        <Landing1 />
+      </div>
+
       <LoopScrollText />
+
       <div className="bg-black text-white p-2 flex justify-start px-6">
         <Landing2 />
       </div>
-      <div className="bg-black py-11  text-white flex justify-start px-6">
+
+      <div className="bg-black py-11 text-white flex justify-start px-6">
         <Landing3 />
       </div>
-      <div className="bg-lime-300  p-2">
+
+      <div className="bg-lime-300 p-2">
         <Viewall />
       </div>
+
       <SecondScroll />
+
       <div className="p-2">
         <Landing4 />
+      </div>
+
+      {/* 🎬 Fullscreen Video Section */}
+      <div className="relative w-full z-100">
+        <Landing5 />
       </div>
     </div>
   );

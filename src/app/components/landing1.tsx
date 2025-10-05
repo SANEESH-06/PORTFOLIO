@@ -128,7 +128,7 @@ function Landing1() {
 
                     <div>
                         <div className="flex flex-row items-center  gap-2">
-                            <p className="bg-lime-300 w-3 h-3 rounded-full"></p>
+                            <p className="bg-lime-200 w-3 h-3 rounded-full"></p>
                             <p className="text-zinc-800 text-sm font-semibold">Available for freelance</p>
                         </div>
                         <div

@@ -16,7 +16,7 @@ export default function Landing5() {
       </video>
 
       {/* 🧠 Overlay Title */}
-      <h1 className="relative z-10 text-red-500 text-4xl font-bold tracking-wide">
+      <h1 className="relative z-10 mt-180 text-red-500 text-4xl font-bold tracking-wide">
         Creative Vision
       </h1>
     </div>

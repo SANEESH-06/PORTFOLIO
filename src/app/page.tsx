@@ -71,7 +71,7 @@ export default function Page() {
       </div>
 
       {/* 🎬 Fullscreen Video Section */}
-      <div className="relative w-full z-100">
+      <div className="relative w-full z-100 overflow-hidden">
         <Landing5 />
       </div>
     </div>

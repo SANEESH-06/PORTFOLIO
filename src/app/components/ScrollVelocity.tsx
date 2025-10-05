@@ -5,12 +5,12 @@ import { Asterisk } from 'lucide-react'
 function ScrollVelocity() {
     const text = (
     <div className='flex items-center gap-2'>
-      18 /satisfied clients <Asterisk className="inline w-4 h-4 mx-1 text-lime-300" /> 
-     <span className='text-lime-300 '>6+ /</span>  month of experience 
+      18 /satisfied clients <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
+     <span className='text-lime-300 w-9 h-9 '>6+ /</span>  month of experience 
       <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
-      <span className='text-lime-300'>3 /</span>projects finished 
-      <Asterisk className="inline w-7 h-7 mx-1 text-lime-300" /> 
-      <span className='text-lime-300'>95% /</span>client retention rate
+      <span className='text-lime-300 w-9 h-9'>3 /</span>projects finished 
+      <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
+      <span className='text-lime-300 w-9 h-9'>95% /</span>client retention rate
     </div>
   );
 

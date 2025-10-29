@@ -6,11 +6,11 @@ function ScrollVelocity() {
     const text = (
     <div className='flex items-center gap-2'>
       18 /satisfied clients <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
-     <span className='text-lime-300 w-9 h-9 '>6+ /</span>  month of experience 
-      <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
+     <span className='text-lime-300 w-15 h-9 '>6+ /</span>  month of experience 
+      <Asterisk className="inline w-19 h-9 mx-1 text-lime-300" /> 
       <span className='text-lime-300 w-9 h-9'>3 /</span>projects finished 
-      <Asterisk className="inline w-9 h-9 mx-1 text-lime-300" /> 
-      <span className='text-lime-300 w-9 h-9'>95% /</span>client retention rate
+      <Asterisk className="inline w-19 h-9 mx-1 text-lime-300" /> 
+      <span className='text-lime-300 w-19 h-9'>95% /</span>client retention rate
     </div>
   );
 
@@ -52,7 +52,7 @@ function ScrollVelocity() {
       <div className="w-full overflow-hidden bg-zinc-800 py-6.5">
         <motion.div
           className="flex whitespace-nowrap text-3xl font-semibold text-white"
-          animate={{ x: ["0%", "-100%"] }}
+          animate={{ x: ["0%", "-50%"] }}
           transition={{
             duration: 15, 
             ease: "linear",

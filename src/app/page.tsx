@@ -31,7 +31,6 @@ export default function Page() {
         contain: "size",
       }}
     >
-      {/* 🧭 Navbar + Audio Button */}
       <div className="p-2 relative z-50">
         <Nav />
         <audio ref={audioRef} src="/audio/audio.mp3" loop preload="auto" />
@@ -46,7 +45,7 @@ export default function Page() {
       </div>
 
       {/* 🧩 Landing Sections */}
-      <div className="mb-6">
+      <div className="mb-6   ">
         <Landing1 />
       </div>
 
@@ -71,9 +70,9 @@ export default function Page() {
       </div>
 
       {/* 🎬 Fullscreen Video Section */}
-      <div className="relative w-full z-100 overflow-hidden">
+      {/* <div className="relative w-full z-100 overflow-hidden">
         <Landing5 />
-      </div>
+      </div> */}
     </div>
   );
 }

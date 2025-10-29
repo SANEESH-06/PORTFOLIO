@@ -8,7 +8,6 @@ import Landing3 from "./components/landing3";
 import Viewall from "./components/view-all";
 import SecondScroll from "./components/secondscroll";
 import Landing4 from "./components/landing4";
-import Landing5 from "./components/landing5vid";
 import { Play } from "lucide-react";
 import React from "react";
 

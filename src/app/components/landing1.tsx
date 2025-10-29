@@ -135,7 +135,7 @@ function Landing1() {
                             className={`${comfortaa.className} text-3xl xl:pt-10 xl:leading-10 xl:gap-5 xl:text-7xl gap-2 mt-7 leading-10 flex-col flex p-1 justify-start sm:text-5xl `}
                         >
                             <div className="flex flex-row">
-                                <span>Hi! I'm</span>
+                                <span>{`Hi! I'm`}</span>
                                 <span className="bg-zinc-50 ml-5 xl:h-10 shadow-sm rounded-full hover:bg-transparent justify-center text-2xl py-1 flex w-35 hover:scale-120 transition-[1000px]">
                                     Saneesh
                                 </span>

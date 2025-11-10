@@ -122,7 +122,7 @@ function Landing1() {
                 <motion.span
                   initial={{ opacity: 0, x: -300}}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, ease: "easeInOut" }}
+                  transition={{ duration: 0.5, ease: "backOut" }}
                   className="bg-zinc-50  ml-5 xl:h-10 shadow-sm rounded-full hover:bg-transparent justify-center text-2xl py-1 flex w-35 hover:scale-110 transition duration-1000"
                 >
                   Saneesh
@@ -134,9 +134,9 @@ function Landing1() {
                   <br />
                   <span className="">a</span>
                   <motion.span
-                  initial={{opacity:0,y:10}}
-                  animate={{opacity:1, y:0}}
-                  transition={{duration:2, ease:"anticipate"}}
+                  initial={{opacity:0,x:800}}
+                  animate={{opacity:1, x:0}}
+                  transition={{duration:0.5, ease:"circOut"}}
                   className="bg-zinc-800 transition-1000  mt-2 xl:ml-5 hover:scale-120 transition duration-1000 text-white rounded-full  px-7 sm:px-16 py-3  text-lg">
                     Web-developer
                   </motion.span>
@@ -145,9 +145,9 @@ function Landing1() {
                 <div className="items-center flex  flex-row">
                   <span>from</span>
                   <motion.span 
-                  initial={{opacity:-1, x:100}}
-                  animate={{opacity:1,  x:0}}
-                  transition={{duration:2.1 , ease:"anticipate"}}
+                  initial={{opacity:0, y:0}}
+                  animate={{opacity:1,  y:0}}
+                  transition={{duration:2 , ease:"anticipate"}}
 
                   className="bg-white ml-2 hover:scale-120 transition duration-1000 -mt-3 rounded-full border-1 px-3 py-3 mb- text-xl">
                     

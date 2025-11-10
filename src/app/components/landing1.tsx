@@ -21,7 +21,7 @@ function Landing1() {
 
 
     return (
-        <div className="w-full  mt-35 flex flex-col justify-center">
+        <div className="w-full  md:mt-25 flex flex-col justify-center">
             <div className="flex flex-col xl:px-65 md:flex-row items-start p-2 md:items-start  xl:pt-8   md:justify-center">
                 <div className="flex flex-row xl:pt-20 md:justify-center items-center mt-2 gap-5 p-2 " >
                     <div className="flex flex-row items-center md:justify-center gap-">

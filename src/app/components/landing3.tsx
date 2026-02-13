@@ -32,12 +32,12 @@ export default function Landing3() {
   if (loading) return <p className="p-4">Loading...</p>;
 
   return (
-    <div className="w-full p-2">
-      <div className="grid gap-6 p2">
+    <div className="w-full p-2 flex ">
+      <div className="flex flex-col md:flex-row gap-10 xl:flex-row gap-10">
         {projects.map((item, index) => (
           <div
             key={index}
-            className="p-4  rounded-lg shadow-sm hover:shadow-md transition"
+            className="p-  rounded-lg shadow-sm hover:shadow-md transition"
           >
             <span className="flex justify-between text-sm text-gray-500">
               <span>{item.title}</span>
@@ -45,13 +45,13 @@ export default function Landing3() {
             </span>
             <h1 className="text-xl font-bold mt-2">{item.company}</h1>
             <p className="text-gray-600">{item.description}</p>
-            <div className="mt-3">
+            <div className="mt-3 ">
               <Image
                 src={item.imageUrl}
                 alt={item.title}
-                width={400}
+                width={4000}
                 height={250}
-                className="rounded-lg object-cover"
+                className="rounded-lg h-100 object-cover"
               />
             </div>
           </div>
